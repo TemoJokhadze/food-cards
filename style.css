@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=DM+Serif+Display:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=DM+Serif+Display:ital@0;1&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #eeeeee;
+}
+.pizza {
+  width: 360px;
+  height: 528px;
+  background-color: white;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  flex-direction: column;
+  margin-left: 200px;
+  margin-top: 70px;
+  /* position: absolute; */
+  background-image: url(./878ed90335cc150e8d78de6dd1eae18c.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 16px;
+  position: absolute;
+}
+.pep {
+  margin-top: 270px;
+  margin-left: 40px;
+  position: absolute;
+  font-family: DM Serif Display;
+}
+.title {
+  font-size: 16px;
+  width: 312px;
+  height: 75px;
+  margin-left: 40px;
+  color: #6e798c;
+  position: absolute;
+  margin-top: 330px;
+  font-family: open sans;
+}
+.pfc {
+  margin-left: 130px;
+  position: absolute;
+  margin-top: 412px;
+  color: #a5adbb;
+  font-family: open sans;
+}
+.c {
+  margin-left: 280px;
+  margin-bottom: 100px;
+  position: absolute;
+  margin-top: 412px;
+  color: #a5adbb;
+  font-family: open sans;
+}
+.cal {
+  position: absolute;
+  margin-top: 412px;
+  margin-left: 40px;
+  color: #a5adbb;
+  font-family: open sans;
+}
+.price {
+  margin-top: 460px;
+  position: absolute;
+  margin-left: 40px;
+  font-family: DM Serif Display;
+}
+.discount {
+  position: absolute;
+  margin-top: 464px;
+  margin-left: 130px;
+  color: red;
+  text-decoration: line-through;
+  font-family: DM Serif Display;
+}
+.order {
+  position: absolute;
+  margin-top: 450px;
+  margin-left: 220px;
+  width: 114px;
+  height: 44px;
+  background-color: #2ecc71;
+  border-radius: 4px;
+  color: white;
+  font-family: open sans;
+}
+.img1 {
+  margin-left: 315px;
+  margin-top: 20px;
+  position: absolute;
+}
+.vector {
+  width: 32px;
+  height: 32px;
+  background-color: white;
+  border-radius: 100%;
+  position: absolute;
+  margin-left: 305px;
+  margin-top: 12px;
+}
+.icons {
+  position: absolute;
+  margin-left: 250px;
+  margin-top: 270px;
+}
+.icons1 {
+  position: absolute;
+  margin-left: 285px;
+  margin-top: 270px;
+}
+.tortelini {
+  /* background-image: url(./60c615602143ee1c0dfd33c33a618e40.jpeg); */
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 360px;
+  height: 528px;
+  background-color: white;
+  position: absolute;
+  margin-left: 600px;
+  margin-top: 70px;
+  border-radius: 16px;
+}
+.tort {
+  margin-top: 270px;
+  position: absolute;
+  margin-left: 40px;
+  font-family: DM Serif Display;
+}
+.title2 {
+  font-size: 16px;
+  width: 312px;
+  height: 75px;
+  margin-left: 40px;
+  color: #6e798c;
+  position: absolute;
+  margin-top: 330px;
+  font-family: open sans;
+}
+.pfc2 {
+  margin-left: 130px;
+  position: absolute;
+  margin-top: 412px;
+  color: #a5adbb;
+  font-family: open sans;
+}
+.c2 {
+  margin-left: 280px;
+  margin-bottom: 100px;
+  position: absolute;
+  margin-top: 412px;
+  color: #a5adbb;
+  font-family: open sans;
+}
+.cal2 {
+  position: absolute;
+  margin-top: 412px;
+  margin-left: 40px;
+  color: #a5adbb;
+  font-family: open sans;
+}
+.price2 {
+  margin-top: 460px;
+  position: absolute;
+  margin-left: 40px;
+  font-family: DM Serif Display;
+}
+.discount2 {
+  position: absolute;
+  margin-top: 464px;
+  margin-left: 130px;
+  color: red;
+  text-decoration: line-through;
+  font-family: DM Serif Display;
+}
+.order2 {
+  position: absolute;
+  margin-top: 450px;
+  margin-left: 220px;
+  width: 114px;
+  height: 44px;
+  background-color: #2ecc71;
+  border-radius: 4px;
+  color: white;
+  font-family: open sans;
+}
+.img2 {
+  margin-left: 315px;
+  margin-top: 20px;
+  position: absolute;
+}
+.vector2 {
+  width: 32px;
+  height: 32px;
+  background-color: white;
+  border-radius: 100%;
+  position: absolute;
+  margin-left: 305px;
+  margin-top: 12px;
+}
+.icons2 {
+  position: absolute;
+  margin-left: 250px;
+  margin-top: 270px;
+}
+.strawberry {
+  width: 360px;
+  height: 528px;
+  background-color: white;
+  position: absolute;
+  margin-left: 1000px;
+  margin-top: 70px;
+  border-radius: 16px;
+}
+.straw {
+  margin-top: 270px;
+  position: absolute;
+  margin-left: 40px;
+  font-family: DM Serif Display;
+}
+.title3 {
+  font-size: 16px;
+  width: 312px;
+  height: 75px;
+  margin-left: 40px;
+  color: #6e798c;
+  position: absolute;
+  margin-top: 330px;
+  font-family: open sans;
+}
+.pfc3 {
+  margin-left: 130px;
+  position: absolute;
+  margin-top: 412px;
+  color: #a5adbb;
+  font-family: open sans;
+}
+.c3 {
+  margin-left: 280px;
+  margin-bottom: 100px;
+  position: absolute;
+  margin-top: 412px;
+  color: #a5adbb;
+  font-family: open sans;
+}
+.cal3 {
+  position: absolute;
+  margin-top: 412px;
+  margin-left: 40px;
+  color: #a5adbb;
+  font-family: open sans;
+}
+.price3 {
+  margin-top: 460px;
+  position: absolute;
+  margin-left: 40px;
+  font-family: DM Serif Display;
+}
+.order3 {
+  position: absolute;
+  margin-top: 450px;
+  margin-left: 220px;
+  width: 114px;
+  height: 44px;
+  background-color: #2ecc71;
+  border-radius: 4px;
+  color: white;
+  font-family: open sans;
+}
+.img3 {
+  margin-left: 315px;
+  margin-top: 20px;
+  position: absolute;
+}
+.vector3 {
+  width: 32px;
+  height: 32px;
+  background-color: white;
+  border-radius: 100%;
+  position: absolute;
+  margin-left: 305px;
+  margin-top: 12px;
+}
+.icons3 {
+  position: absolute;
+  margin-left: 250px;
+  margin-top: 270px;
+}
+.discount3 {
+  position: absolute;
+  margin-top: 464px;
+  margin-left: 130px;
+  color: red;
+  text-decoration: line-through;
+  font-family: DM Serif Display;
+}
+.tor {
+  width: 360px;
+  height: 240px;
+  gap: 0px;
+  border-radius: 16px 16px 0px 0px;
+  opacity: 0px;
+  position: absolute;
+}
+.strawb {
+  width: 360px;
+  height: 240px;
+  gap: 0px;
+  border-radius: 16px 16px 0px 0px;
+  opacity: 0px;
+  position: absolute;
+}
